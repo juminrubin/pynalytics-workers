@@ -1,0 +1,30 @@
+# FastAPI for the web framework
+fastapi==0.115.2
+
+# Uvicorn for running FastAPI
+uvicorn==0.32.0
+
+# Azure Service Bus SDK
+azure-servicebus==7.12.3
+
+# OpenAI for GPT and Whisper API calls
+openai==1.52.0
+
+# DiskCache for caching
+diskcache==5.6.3
+
+# Whisper for speech-to-text (make sure you have pytorch installed for Whisper)
+whisper==1.1.10
+
+# PyTorch (required for Whisper to work; version depends on your system setup, e.g., CUDA support)
+#torch==2.0.1
+
+# PyTest for running unit tests
+pytest==8.3.3
+
+# Mocking support for unit tests
+pytest-mock==3.14.0
+
+# Multiprocessing support (part of Python standard library, no need to install)
+
+# Logging is part of Python's standard library, no need to install.
