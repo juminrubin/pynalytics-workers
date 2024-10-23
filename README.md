@@ -2,13 +2,10 @@
 
 ```
 ├─src
-│ └─main
-│   ├─python
-│   │ └─pynalytics_workers
-│   │   ├─shared
-│   │   ├─speech_to_text_workers
-│   │   └─summarization_workers
-│   └─resources
+│ └─pynalytics_workers
+│   ├─shared
+│   ├─speech_to_text_workers
+│   └─summarization_workers
 └─test
   ├─integration
   └─unit
